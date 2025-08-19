@@ -28,7 +28,7 @@ export const badgeTextVariants = cva("", {
     defaultVariants: {
         variant: "primary"
     }
-})
+});
 
 interface BadgeProps extends React.ComponentProps<"div">, VariantProps<typeof badgeVariants> {}
 
